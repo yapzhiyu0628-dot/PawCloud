@@ -430,55 +430,75 @@ nav ul li a:hover{
     background:#B94D1B;
 }
 
-/* ===================== */
-/*       Why Adopt       */
-/* ===================== */
+/* ========================= */
+/* WHY ADOPT - Mobile */
+/* ========================= */
+
 .why-adopt-section{
+    padding:50px 25px;
     background:#F8EFE0;
-    padding:70px 80px;
 }
+
 .why-adopt-title{
     font-family:'Fuzzy Bubbles',cursive;
-    font-size:48px;
+    font-size:38px;
     color:#D55F27;
     text-align:center;
-    margin-bottom:55px;
+    margin-bottom:40px;
 }
+
 .reasons-row{
     display:flex;
-    justify-content:center;
-    align-items:flex-start;
+    flex-direction:column;
+    align-items:center;
+    gap:35px;
 }
+
+.divider{
+    display:none;
+}
+
 .reason-card{
-    flex:1;
-    max-width:260px;
-    padding:0 35px;
+    width:100%;
+    max-width:320px;
+    padding:0;
     text-align:center;
 }
+
 .icon-wrap{
+    width:100%;
+    height:auto;
     display:flex;
     justify-content:center;
     align-items:center;
-    margin-bottom:20px;
+    margin-bottom:18px;
 }
+
+
+
 .reason-icon{
-    width:110px;
-    height:110px;
+    width:90px;
+    height:90px;
     object-fit:contain;
 }
+
+
+
 .reason-text{
     font-family:'Poppins',sans-serif;
-    font-size:18px;
-    font-weight:600;
-    color:#3A2A1E;
-    line-height:1.5;
+    font-size:20px;
+    font-weight:700;
+    color:#35261D;
+    line-height:1.45;
 }
-.divider{
-    width:1px;
-    height:160px;
-    background:#D9CCBB;
-    margin-top:10px;
+
+
+
+.reason-card:not(:last-child){
+    padding-bottom:35px;
+    border-bottom:1px solid #ead8c2;
 }
+
 /* ===================== */
 /*        Footer         */
 /* ===================== */	
