@@ -17,6 +17,8 @@ header{
     padding:2px 5%;
     background:#FCFAF4;
     position:sticky;
+    top:0;
+    z-index:999;
     box-shadow:0 3px 5px rgba(0,0,0,.08);
 }
 
@@ -88,7 +90,7 @@ nav ul li a:hover{
 	color:#939C67;
     font-size: 24px;
     margin-bottom: 35px;
-    line-height: 1.;
+    line-height:1.4;
 }
 
 .hero-btn{
@@ -382,7 +384,7 @@ nav ul li a:hover{
 }
 
 .dog-img{
-    width:140px;
+    width:155px;
 	position:relative;
 	z-index:1;
 }
@@ -431,68 +433,52 @@ nav ul li a:hover{
 /* ===================== */
 /*       Why Adopt       */
 /* ===================== */
-.why-adopt-section {  
-	background-color: #F8EFE0; 
-	padding: 50px 60px 60px;
-	}
-
-.why-adopt-title {
-	font-family:"Fuzzy Bubble", cursive;
-	font-size:39px; 
-	color:#D55F27; 
-	text-align:center; 
-	margin-bottom:40px; 
-	}
-
-.reasons-row {  
-	display: flex; 
-	align-items:center;
-	justify-content:center; 
-	gap: 0;
-	}
-
-.reason-card { 
-	display: flex; 
-	flex-direction: column;
-	align-items: center; 
-	justify-content: flex-start; 
-	gap: 18px; 
-	padding: 20px 40px; 
-	text-align: center; 
-	flex: 1; 
-	max-width: 200px;
-	}
-
-.icon-wrap {
-	width:100%;
-	height:50px; 
-	border-radius:50%;
-	display:flex; 
-	align-items: center; 
-	justify-content: center;
-	}
-
-.reason-icon {
-	width:250%;
-	object-fit: contain;
-]
-	}
-
-.reason-text {
-	font-family: 'Nunito', sans-serif;
-	font-size: 0.95rem;
-	font-weight: 700;
-	color: #3a2a1e;
-	line-height: 1.5;
-	}
-	
-.divider {
-	width: 1px;
-	height: 140px;
-	background-color: #d9ccbb;
-	flex-shrink: 0;
-	}
-	
+.why-adopt-section{
+    background:#F8EFE0;
+    padding:70px 80px;
+}
+.why-adopt-title{
+    font-family:'Fuzzy Bubbles',cursive;
+    font-size:48px;
+    color:#D55F27;
+    text-align:center;
+    margin-bottom:55px;
+}
+.reasons-row{
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+}
+.reason-card{
+    flex:1;
+    max-width:260px;
+    padding:0 35px;
+    text-align:center;
+}
+.icon-wrap{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:20px;
+}
+.reason-icon{
+    width:110px;
+    height:110px;
+    object-fit:contain;
+}
+.reason-text{
+    font-family:'Poppins',sans-serif;
+    font-size:18px;
+    font-weight:600;
+    color:#3A2A1E;
+    line-height:1.5;
+}
+.divider{
+    width:1px;
+    height:160px;
+    background:#D9CCBB;
+    margin-top:10px;
+}
 /* ===================== */
 /*        Footer         */
 /* ===================== */	
@@ -537,7 +523,7 @@ footer{
 }
 
 .social-icons img{
-    width:90px;
+    width:60px;
    transition:.3s;
 }
 
