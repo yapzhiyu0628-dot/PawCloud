@@ -1,1029 +1,293 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:'Poppins',sans-serif;
-}
-
-body{
-	font-family:'Fuzzy Bubbles',cursive;
-}
-
-header{
-    width:100%;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:2px 5%;
-    background:#FCFAF4;
-    position:sticky;
-    top:0;
-    z-index:999;
-    box-shadow:0 3px 5px rgba(0,0,0,.08);
-}
-
-.logo img{
-    width:200px;
-}
-
-nav ul{
-    display:flex;
-    list-style:none;
-}
-
-nav ul li{
-    margin-left:40px;
-}
-
-nav ul li a{
-    text-decoration:none;
-    color:#333;
-    font-weight:600;
-    transition:.3s;
-}
-
-nav ul li a:hover{
-    color:#D97706;
-}
-
-
-
-
-
-/* ===================== */
-/*   HERO                */
-/* ===================== */
-
-
-.hero{
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-}
-
-.hero-image{
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-.hero-content{
-    position: absolute;
-    top: 50%;
-    left: 8%;
-    transform: translateY(-50%);
-    color: white;
-    max-width: 450px;
-}
-
-.hero h1{
-	font-family:"Rubik Bubbles", cursive;
-	font-style:bold;
-	color:#CA6028;
-    font-size: 70px;
-    margin-bottom: 20px;
-}
-
-.hero p{
-    font-family:'Fuzzy Bubbles',cursive;
-	font-weight:700;
-	color:#939C67;
-    font-size: 24px;
-    margin-bottom: 35px;
-    line-height:1.4;
-}
-
-.hero-btn{
-    display: flex;
-    gap: 20px;
-}
-
-.browse-btn{
-    background:#FFD668;
-    color:#444;
-    padding:15px 35px;
-    border-radius:40px;
-    font-size:18px;
-    font-weight:600;
-    transition:.3s;
-}
-
-.browse-btn:hover{
-    transform:translateY(-3px);
-    background:#ffcb43;
-}
-
-.submit-btn{
-    background:#FFD668;
-    color:#444;
-    padding:15px 35px;
-    border-radius:40px;
-    font-size:18px;
-    font-weight:600;
-    transition:.3s;
-}
-
-.submit-btn:hover{
-    transform:translateY(-3px);
-    background:#ffcb43;
-}
-
-/* ===================== */
-/*   About               */
-/* ===================== */
-.about{
-    position:relative;
-    width:100%;
-}
-
-.about img{
-    width:100%;
-    display:block;
-}
-
-.about-content{
-    position:absolute;
-    top:50%;
-    right:10%;
-    transform:translateY(-50%);
-    width:35%;
-}
-
-.about-content h2{
-    font-family:'Fuzzy Bubbles',cursive;	
-    font-size:45px;
-    color:#2F4F3EEE;
-    margin-bottom:20px;
-}
-
-.about-content p{
-    font-family:'Fuzzy Bubbles',cursive;
-    font-size:20px;
-    line-height:1.3;
-    color:#939C67;
-    margin-bottom:15px;
-}
-
-/* ===================== */
-/*     How To Submit     */
-/* ===================== */
-.submit-pet{
-    position:relative;
-    width:100%;
-}
-
-.submit-bg{
-    width:100%;
-    display:block;
-}
-
-.submit-content{
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    width:90%;
-    text-align:center;
-}
-
-.submit-content h2{
-    font-family:'Fuzzy Bubbles',cursive;
-    font-size:52px;
-    color:#D55F27;
-    margin-bottom:8px;
-}
-
-.subtitle{
-    font-family:'Fuzzy Bubbles',cursive;
-    font-size:22px;
-    color:#65713B;
-    margin-bottom:55px;
-}
-
-.submit-cards{
-    display:flex;
-    justify-content:space-between;
-    gap:25px;
-}
-
-.submit-card{
-    position:relative;
-    width:24%;
-    border:3px solid #FBE6CB;
-    border-radius:22px;
-    padding:25px 20px;
-    background:transparent;
-    transition:.3s;
-}
-
-.submit-card:hover{
-    transform:translateY(-8px);
-}
-
-.step{
-    position:absolute;
-    top:18px;
-    left:18px;
-    width:34px;
-    height:34px;
-    background:#D8662E;
-    color:white;
-    border-radius:50%;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    font-size:18px;
-    font-weight:bold;
-}
-
-.submit-card h3{
-    font-family:'Fuzzy Bubbles',cursive;
-    color:#2F4F3EEE;
-    font-size:30px;
-    margin-top:5px;
-    margin-bottom:20px;
-}
-
-.submit-card img{
-    width:100px;
-    display:block;
-    margin:0 auto 20px;
-}
-
-.submit-card p{
-    font-family:'Fuzzy Bubbles',cursive;
-    color:#939C67;
-    font-size:18px;
-    line-height:1.5;
-}
-
-.email{
-    margin-bottom:12px;
-}
-
-.email a{
-    color:#939C67;
-	font-weight:bold;
-	text-decoration:none;
-}
-
-.email a:hover{
-	text-decoration:underline;
-}
-
-.submit-card ul{
-    width:150px;
-    margin:10px auto 0;
-    text-align:center;
-    color:#939C67;
-    font-family:'Fuzzy Bubbles',cursive;
-    font-size:18px;
-    line-height:1.3;
-}
-
-.submit-card li{
-    margin-bottom:3px;
-	font-family:'Fuzzy Bubbles',cursive;
-}
-
-/* ===================== */
-/*      Browse Pets      */
-/* ===================== */
-.browse-pets{
-	background:#FCFAF4;
-    width:100%;
-    font-family:'Fuzzy Bubbles',cursive;
-}
-
-.browse-container{
-    width:90%;
-    margin:auto;
-}
-
-.browse-header{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    margin-bottom:35px;
-}
-
-.title{
-	padding-top:20px;
-	padding-left:37%;
-    display:flex;
-    align-items:center;
-    gap:15px;
-    font-family:'Fuzzy Bubbles',cursive;
-}
-
-.title img{
-    width:50px;
-}
-
-.title h2{
-    font-family:'Fuzzy Bubbles',cursive;
-    font-size:46px;
-    color:#D55F27;
-}
-
-.view-all{
-    text-decoration:none;
-    color:#905841;
-    font-size:18px;
-    font-weight:bold;
-    transition:.3s;
-}
-
-.view-all:hover{
-    color:#D55F27;
-}
-
-.pet-container{
-    display:flex;
-    justify-content:space-between;
-    gap:25px;
-	padding-bottom:25px;
-}
-
-.pet-card{
-    width:100%;
-    background:#FDF3E0;
-    border-radius:20px;
-    transition:.3s;
-    box-shadow:0 8px 18px rgba(0,0,0,.08);
-	overflow:hidden;
-}
-
-.pet-card:hover{
-    transform:translateY(-8px);
-}
-
-.pet-image{
-    position:relative;
-    height:180px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-	overflow:visible;
-}
-
-.coco{
-    background:#F8CBA6;
-}
-
-.luna{
-    background:#D9DEBD;
-}
-
-.beary{
-    background:#FDD58B;
-}
-
-.lucky{
-    background:#B5CCDA;
-}
-
-.dog-img{
-    width:155px;
-	position:relative;
-	z-index:1;
-}
-
-.love-icon{
-    position:absolute;
-    top:15px;
-    right:15px;
-    width:28px;
-    height:28px;
-    z-index:20;
-}
-
-.pet-info{
-    padding:18px;
-}
-
-.pet-info h3{
-    color:#CC5E29;
-    font-size:28px;
-    margin-bottom:12px;
-}
-
-.pet-info p{
-    color:#2F4F3E;
-    font-size:16px;
-    line-height:1.7;
-}
-
-.watch-btn{
-    display:inline-block;
-    margin-top:15px;
-    background:#D55F27;
-    color:white;
-    padding:10px 18px;
-    text-decoration:none;
-    border-radius:30px;
-    font-size:15px;
-    transition:.3s;
-}
-
-.watch-btn:hover{
-    background:#B94D1B;
-}
-
-/* ===================== */
-/*       Why Adopt       */
-/* ===================== */
-.why-adopt-section{
-    background:#F8EFE0;
-    padding:70px 80px;
-}
-.why-adopt-title{
-    font-family:'Fuzzy Bubbles',cursive;
-    font-size:48px;
-    color:#D55F27;
-    text-align:center;
-    margin-bottom:55px;
-}
-.reasons-row{
-    display:flex;
-    justify-content:center;
-    align-items:flex-start;
-}
-.reason-card{
-    flex:1;
-    max-width:260px;
-    padding:0 35px;
-    text-align:center;
-}
-.icon-wrap{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    margin-bottom:20px;
-}
-.reason-icon{
-    width:110px;
-    height:110px;
-    object-fit:contain;
-}
-.reason-text{
-    font-family:'Poppins',sans-serif;
-    font-size:18px;
-    font-weight:600;
-    color:#3A2A1E;
-    line-height:1.5;
-}
-.divider{
-    width:1px;
-    height:160px;
-    background:#D9CCBB;
-    margin-top:10px;
-}
-/* ===================== */
-/*        Footer         */
-/* ===================== */	
-footer{
-    width:100%;
-    margin-top:0;
-}
-
-.footer-content{
-    background:#F3F6DD;
-    display:flex;
-    justify-content:space-between;
-    align-items:flex-start;
-    padding:45px 90px;
-}
-
-.footer-left h2{
-    color:#2F4F3E;
-    font-size:30px;
-    margin-bottom:15px;
-}
-
-.footer-left p{
-    color:#939C67;
-    font-size:20px;
-    line-height:1.5;
-}
-
-.footer-right{
-    text-align:center;
-}
-
-.footer-right h3{
-    color:#2F4F3E;
-    font-size:32px;
-}
-
-.social-icons{
-    display:flex;
-    gap:2px;
-    justify-content:center;
-}
-
-.social-icons img{
-    width:60px;
-   transition:.3s;
-}
-
-.social-icons img:hover{
-    transform:scale(1.15);
-}
-
-.copyright{
-    background:#C75927;
-    height:45px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    gap:10px;
-}
-
-.copyright img{
-    width:35px;
-}
-
-.copyright p{
-    color:white;
-    font-size:16px;
-}
-
-
-
-/* =====================================================
-   PAW CLOUD - Responsive Style.css
-   Add this section to the END of your current Style.css
-   ===================================================== */
-
-/* ---------- Tablet ---------- */
-@media screen and (max-width: 992px){
-
-header{
-    padding:10px 4%;
-}
-
-.logo img{
-    width:150px;
-}
-
-nav ul li{
-    margin-left:20px;
-}
-
-nav ul li a{
-    font-size:15px;
-}
-
-.hero-content{
-    left:6%;
-    max-width:350px;
-}
-
-.hero h1{
-    font-size:52px;
-}
-
-.hero p{
-    font-size:20px;
-    line-height:1.4;
-}
-
-.hero-btn a{
-    padding:12px 25px;
-    font-size:16px;
-}
-
-.about-content{
-    width:42%;
-    right:6%;
-}
-
-.about-content h2{
-    font-size:36px;
-}
-
-.about-content p{
-    font-size:17px;
-}
-
-.submit-content h2{
-    font-size:40px;
-}
-
-.subtitle{
-    font-size:18px;
-    margin-bottom:35px;
-}
-
-.submit-cards{
-    gap:15px;
-}
-
-.submit-card{
-    padding:20px 15px;
-}
-
-.submit-card h3{
-    font-size:22px;
-}
-
-.submit-card img{
-    width:70px;
-}
-
-.submit-card p,
-.submit-card li,
-.submit-card ul{
-    font-size:15px;
-}
-
-.title{
-    padding-left:0;
-    justify-content:center;
-}
-
-.title h2{
-    font-size:36px;
-}
-
-.pet-container{
-    flex-wrap:wrap;
-}
-
-.pet-card{
-    width:48%;
-}
-
-.reasons-row{
-    flex-wrap:wrap;
-}
-
-.reason-card{
-    max-width:45%;
-}
-
-.footer-content{
-    padding:40px;
-}
-
-.social-icons img{
-    width:70px;
-}
-
-}
-
-/* ---------- Mobile ---------- */
-@media screen and (max-width:768px){
-
-header{
-    flex-direction:column;
-    justify-content:center;
-    padding:15px;
-    position:relative;
-}
-
-.logo img{
-    width:120px;
-}
-
-nav{
-    width:100%;
-    margin-top:10px;
-}
-
-nav ul{
-    justify-content:center;
-    flex-wrap:wrap;
-    gap:15px;
-}
-
-nav ul li{
-    margin:0;
-}
-
-nav ul li a{
-    font-size:14px;
-}
-
-/* HERO */
-
-.hero{
-    display:flex;
-    flex-direction:column;
-}
-
-.hero-image{
-    width:100%;
-}
-
-.hero-content{
-    position:absolute;
-    width:90%;
-    left:50%;
-    top:28%;
-    transform:translate(-50%,-50%);
-    text-align:center;
-}
-
-.hero h1{
-    font-size:38px;
-    margin-bottom:10px;
-}
-
-.hero p{
-    font-size:17px;
-    margin-bottom:20px;
-    line-height:1.4;
-}
-
-.hero-btn{
-    flex-direction:column;
-    align-items:center;
-    gap:12px;
-}
-
-.browse-btn,
-.submit-btn{
-    width:190px;
-    text-align:center;
-    padding:12px;
-    font-size:15px;
-}
-
-/* ABOUT */
-
-.about{
-    display:flex;
-    flex-direction:column;
-}
-
-.about img{
-    width:100%;
-}
-
-.about-content{
-    position:static;
-    transform:none;
-    width:90%;
-    margin:30px auto;
-    text-align:center;
-}
-
-.about-content h2{
-    font-size:30px;
-}
-
-.about-content p{
-    font-size:17px;
-}
-
-/* SUBMIT */
-
-.submit-pet{
-    padding:40px 0;
-    background:#FCF3E5;
-}
-
-.submit-bg{
-    display:none;
-}
-
-.submit-content{
-    position:static;
-    transform:none;
-    width:92%;
-    margin:auto;
-}
-
-.submit-content h2{
-    font-size:34px;
-}
-
-.subtitle{
-    font-size:16px;
-}
-
-.submit-cards{
-    flex-direction:column;
-    gap:20px;
-}
-
-.submit-card{
-    width:100%;
-}
-
-.submit-card h3{
-    font-size:24px;
-}
-
-/* BROWSE */
-
-.browse-container{
-    width:92%;
-}
-
-.browse-header{
-    flex-direction:column;
-    gap:15px;
-}
-
-.title{
-    padding-left:0;
-    justify-content:center;
-}
-
-.title h2{
-    font-size:32px;
-}
-
-.title img{
-    width:35px;
-}
-
-.view-all{
-    font-size:15px;
-}
-
-.pet-container{
-    flex-direction:column;
-}
-
-.pet-card{
-    width:100%;
-}
-
-.pet-image{
-    height:220px;
-}
-
-.pet-info h3{
-    font-size:24px;
-}
-
-.pet-info p{
-    font-size:15px;
-}
-
-/* ========================= */
-/* WHY ADOPT - Mobile */
-/* ========================= */
-
-.why-adopt-section{
-    padding:50px 25px;
-    background:#F8EFE0;
-}
-
-.why-adopt-title{
-    font-family:'Fuzzy Bubbles',cursive;
-    font-size:38px;
-    color:#D55F27;
-    text-align:center;
-    margin-bottom:40px;
-}
-
-.reasons-row{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    gap:35px;
-}
-
-.divider{
-    display:none;
-}
-
-.reason-card{
-    width:200%;
-    max-width:320px;
-    padding:0;
-    text-align:center;
-}
-
-.icon-wrap{
-    width:100%;
-    height:auto;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    margin-bottom:18px;
-}
-
-
-
-.reason-icon{
-    width:200px;
-    height:200px;
-    object-fit:contain;
-}
-
-
-
-.reason-text{
-    font-family:'Poppins',sans-serif;
-    font-size:20px;
-    font-weight:700;
-    color:#35261D;
-    line-height:1.45;
-}
-
-.reason-card:not(:last-child){
-    padding-bottom:35px;
-    border-bottom:1px solid #ead8c2;
-}
-/* FOOTER */
-
-.footer-content{
-    flex-direction:column;
-    align-items:center;
-    text-align:center;
-    gap:30px;
-    padding:35px 20px;
-}
-
-.footer-left h2{
-    font-size:26px;
-}
-
-.footer-left p{
-    font-size:18px;
-}
-
-.footer-right h3{
-    font-size:26px;
-}
-
-.social-icons{
-    gap:10px;
-}
-
-.social-icons img{
-    width:60px;
-}
-
-.copyright{
-    height:auto;
-    padding:10px;
-}
-
-.copyright img{
-    width:28px;
-}
-
-.copyright p{
-    font-size:13px;
-}
-
-}
-
-/* ---------- Small phones ---------- */
-
-@media screen and (max-width:480px){
-
-.hero-content{
-    top:25%;
-}
-
-.hero h1{
-    font-size:32px;
-}
-
-.hero p{
-    font-size:15px;
-}
-
-.about-content h2{
-    font-size:28px;
-}
-
-.submit-content h2{
-    font-size:30px;
-}
-
-.title h2{
-    font-size:28px;
-}
-
-.pet-image{
-    height:180px;
-}
-
-.dog-img{
-    width:120px;
-}
-
-.pet-info{
-    padding:15px;
-}
-
-.watch-btn{
-    width:100%;
-    text-align:center;
-}
-
-.footer-left h2,
-.footer-right h3{
-    font-size:24px;
-}
-
-}
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Rubik+Bubbles&display=swap" rel="stylesheet">
+	<title>Paw Cloud</title>
+     <link rel="stylesheet" href="Style.css" />
+</head>
+
+<body>
+<header>
+
+    <div class="logo">
+        <img src="LOGO.png" alt="logo">
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Browse Pets</a></li>
+            <li><a href="#adopt">Adopt</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!---------- First Part ----------!>
+ <section class="hero" id="home">
+    <img src="Banner.jpg" alt="Banner" class="hero-image">
+    <div class="hero-content">
+        <h1>Paw Cloud</h1>
+        <p>A safe space for <br/>new beginnings.</p>
+        <div class="hero-btn">
+            <a href="#" class="browse-btn">Browse Pets</a>
+            <a href="mailto:yapzhiyu0628@gmail.com" class="submit-btn">Submit a Pet</a>
+        </div>
+    </div>
+</section>
+
+<!---------- Second Part ----------!>
+<section class="about"id="about">
+    <img src="Second.jpg" alt="About Paw Cloud">
+    <div class="about-content">
+        <h2>About Paw Cloud</h2>
+        <p>
+            PawCloud is a platform that helps pet<br/>
+			owners responsibly rehome their pets.<br/>
+			Instead of abandoning pets , we help<br/>
+			connect them to new loving families.
+        </p>
+    </div>
+</section>
+
+<!---------- Third Part ----------!>
+<section class="submit-pet" id="adopt">
+    <img src="Third.png" alt="Submit Background" class="submit-bg">
+
+    <div class="submit-content">
+        <h2>How to Submit a Pet</h2>
+        <p class="subtitle">
+            Owners who want to rehome their pets, follow these simple steps
+        </p>
+
+        <div class="submit-cards">
+            <div class="submit-card">
+                <div class="step">1</div>
+                <h3>Take Photos</h3>
+                <img src="camera.png" alt="Camera">
+                <p>
+                    Take clear and cute<br/>
+					photos of your pet.
+                </p>
+
+            </div>
+
+            <div class="submit-card">
+                <div class="step">2</div>
+                <h3>Record Video</h3>
+                <img src="video.png" alt="Video">
+                <p>
+                    Record a short video<br/>
+					introducing your pet.
+                </p>
+            </div>
+
+            <div class="submit-card">
+                <div class="step">3</div>
+                <h3>Prepare Information</h3>
+                <img src="form.png" alt="Form">
+                <ul>
+                    <li>Name</li>
+                    <li>Age</li>
+                    <li>Breed</li>
+                    <li>Vaccination</li>
+                    <li>Personality</li>
+                    <li>Others</li>
+                </ul>
+            </div>
+
+            <div class="submit-card">
+                <div class="step">4</div>
+                <h3>Email to<br/>PawCloud</h3>
+                <img src="email.png" alt="Email">
+                <p class="email">
+                    Send everything to
+                    <br/>
+					<a href="mailto:yapzhiyu0628@gmail.com">
+                    yapzhiyu0628@gmail.com</a>
+                </p>
+
+                <p>
+                    Our team will review and<br/>
+					publish your pet profile.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!---------- Fourth Part ----------!>
+<section class="browse-pets">
+<div class="browse-container">
+    <div class="browse-header">
+        <div class="title">
+            <img src="paw.png" alt="paw">
+            <h2>Browse Pets</h2>
+            <img src="paw.png" alt="paw">
+        </div>
+
+        <a href="allpets.html" class="view-all">
+            View All Pets →
+        </a>
+    </div>
+
+    <div class="pet-container">
+
+        <div class="pet-card">
+            <div class="pet-image coco">
+                <img src="heart1.png" class="love-icon" alt="love">
+                <img src="coco.png" class="dog-img" alt="Coco">
+            </div>
+
+            <div class="pet-info">
+                <h3>Coco</h3>
+                <p><strong>Breed:</strong> Border Collie</p>
+                <p><strong>Age:</strong> 4 Years Old</p>
+                <p><strong>Status:</strong> Vaccinated</p>
+                <a href="YOUR_VIDEO_LINK" target="_blank" class="watch-btn">
+                    Watch Video
+                </a>				
+            </div>
+        </div>
+
+        <div class="pet-card">
+            <div class="pet-image luna">
+
+                <img src="heart2.png" class="love-icon" alt="love">
+                <img src="luna.png" class="dog-img" alt="Luna">
+            </div>
+
+            <div class="pet-info">
+                <h3>Luna</h3>
+                <p><strong>Breed:</strong> Biewer Terrier</p>
+                <p><strong>Age:</strong> 4 Years Old</p>
+                <p><strong>Status:</strong> Vaccinated</p>
+                <a href="YOUR_VIDEO_LINK" target="_blank" class="watch-btn">
+                    Watch Video
+                </a>				
+            </div>
+        </div>
+
+        <div class="pet-card">
+            <div class="pet-image beary">
+                <img src="heart3.png" class="love-icon" alt="love">
+                <img src="beary.png" class="dog-img" alt="Beary">
+            </div>
+
+            <div class="pet-info">
+                <h3>Beary</h3>
+                <p><strong>Breed:</strong> Toy Poodle</p>
+                <p><strong>Age:</strong> 4 Years Old</p>
+                <p><strong>Status:</strong> Vaccinated</p>
+                <a href="YOUR_VIDEO_LINK" target="_blank" class="watch-btn">
+                    Watch Video
+                </a>
+            </div>
+        </div>
+
+        <div class="pet-card">
+            <div class="pet-image lucky">
+                <img src="heart4.png" class="love-icon" alt="love">
+                <img src="lucky.png" class="dog-img" alt="Lucky">
+            </div>
+
+            <div class="pet-info">
+                <h3>Lucky</h3>
+                <p><strong>Breed:</strong> Toy Poodle</p>
+                <p><strong>Age:</strong> 4 Years Old</p>
+                <p><strong>Status:</strong> Vaccinated</p>
+                <a href="YOUR_VIDEO_LINK" target="_blank" class="watch-btn">
+                    Watch Video
+                </a>				
+            </div>
+
+        </div>
+		</div>
+    </div>
+</section>
+
+<!---------- Fifth Part ----------!>
+<section class="why-adopt-section">
+    <h2 class="why-adopt-title">Why Adopt</h2>
+
+    <div class="reasons-row">
+
+      <div class="reason-card">
+        <div class="icon-wrap icon-heart">
+          <img src="Love.png" alt="Heart icon" class="reason-icon"/>
+        </div>
+        <p class="reason-text">Give pets a<br/>second chance</p>
+      </div>
+
+      <div class="divider"></div>
+	  
+      <div class="reason-card">
+        <div class="icon-wrap icon-house">
+          <img src="Home.png" alt="Home icon" class="reason-icon"/>
+        </div>
+        <p class="reason-text">Reduce pet<br/>abandonment</p>
+      </div>
+
+      <div class="divider"></div>
+	  
+      <div class="reason-card">
+        <div class="icon-wrap icon-paw">
+          <img src="paws.png" alt="Paw icon" class="reason-icon"/>
+        </div>
+        <p class="reason-text">
+			Many pets are<br/>
+			already trained<br/>
+			and socialized
+		</p>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="reason-card">
+        <div class="icon-wrap icon-money">
+          <img src="money.png" alt="Money icon" class="reason-icon"/>
+        </div>
+        <p class="reason-text">Save money<br/>compared to<br/>buying</p>
+      </div>
+
+    </div>
+  </section>
+  
+<!---------- Footer Part ----------!>
+<footer id="contact">
+    <div class="footer-content">
+
+        <div class="footer-left">
+            <h2>PawCloud</h2>
+            <p>
+                A safe space for<br>
+                new beginnings .
+            </p>
+        </div>
+
+        <div class="footer-right">
+            <h3>FOLLOW US</h3>
+            <div class="social-icons">
+                <a href="mailto:yapzhiyu0628@gmail.com">
+                    <img src="mail.png" alt="Email">
+                </a>
+                <a href="https://www.instagram.com/YOUR_INSTAGRAM" target="_blank">
+                    <img src="insta.png" alt="Instagram">
+                </a>
+                <a href="tel:+601153580123">
+                    <img src="phone.png" alt="Phone">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <img src="Footer.png" alt="paw">
+        <p>PawCloud @ 2024 All rights reserved .</p>
+    </div>
+</footer>
+
+</body>
+</html>
