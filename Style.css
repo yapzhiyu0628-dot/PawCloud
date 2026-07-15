@@ -660,28 +660,35 @@ nav ul li a{
 
 /* About */
 
+.about{
+    position:relative;
+    min-height:100vh;
+    background:url("Phone 2-01.jpg") center top/cover no-repeat;
+}
+
 .about img{
-    height:650px;
-    object-fit:cover;
+    display:none;
 }
 
 .about-content{
-    width:90%;
+    position:absolute;
     left:50%;
-    right:auto;
-    top:50%;
-    transform:translate(-50%,-50%);
+    bottom:90px;
+    transform:translateX(-50%);
+    width:90%;
     text-align:center;
 }
 
 .about-content h2{
-    font-size:34px;
+    font-size:42px;
+    margin-bottom:15px;
 }
 
 .about-content p{
     font-size:18px;
+    line-height:1.7;
 }
-
+	
 /* Submit */
 
 .submit-pet{
