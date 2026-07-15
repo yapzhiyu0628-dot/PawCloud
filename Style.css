@@ -53,26 +53,27 @@ nav ul li a:hover{
 /* ===================== */
 
 
+
+
 .hero{
-    position: relative;
-    width: 100%;
-    overflow: hidden;
+    background:url("Phone 1-01.jpg") center center/cover no-repeat;
+    min-height:100vh;
 }
 
 .hero-image{
-    width: 100%;
-    height: auto;
-    display: block;
+    display:none;
 }
 
 .hero-content{
-    position: absolute;
-    top: 50%;
-    left: 8%;
-    transform: translateY(-50%);
-    color: white;
-    max-width: 450px;
+    position:absolute;
+    top:65%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:90%;
+    text-align:center;
 }
+
+
 
 .hero h1{
 	font-family:"Rubik Bubbles", cursive;
