@@ -125,38 +125,37 @@ nav ul li a:hover{
 /* ===================== */
 /*   About               */
 /* ===================== */
+
+
 .about{
     position:relative;
-    width:100%;
+    min-height:100vh;
+    background:url("Phone 2-01.jpg") center top/cover no-repeat;
 }
 
 .about img{
-    width:100%;
-    display:block;
+    display:none;
 }
 
 .about-content{
     position:absolute;
-    top:50%;
-    right:10%;
-    transform:translateY(-50%);
-    width:35%;
+    left:50%;
+    bottom:90px;
+    transform:translateX(-50%);
+    width:90%;
+    text-align:center;
 }
 
 .about-content h2{
-    font-family:'Fuzzy Bubbles',cursive;	
-    font-size:45px;
-    color:#2F4F3EEE;
-    margin-bottom:20px;
+    font-size:42px;
+    margin-bottom:15px;
 }
 
 .about-content p{
-    font-family:'Fuzzy Bubbles',cursive;
-    font-size:20px;
-    line-height:1.3;
-    color:#939C67;
-    margin-bottom:15px;
+    font-size:18px;
+    line-height:1.7;
 }
+
 
 /* ===================== */
 /*     How To Submit     */
