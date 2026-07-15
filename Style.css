@@ -433,67 +433,64 @@ nav ul li a:hover{
 /* ===================== */
 /*       Why Adopt       */
 /* ===================== */
-.why-adopt-section {  
-	background-color: #F8EFE0; 
-	padding: 50px 60px 60px;
-	}
 
-.why-adopt-title {
-	font-family:"Fuzzy Bubble", cursive;
-	font-size:39px; 
-	color:#D55F27; 
-	text-align:center; 
-	margin-bottom:40px; 
-	}
+.why-adopt-section{
+    background:#F8EFE0;
+    padding:60px 0;
+}
 
-.reasons-row {  
-	display: flex; 
-	align-items:center;
-	justify-content:center; 
-	gap: 0;
-	}
+.why-adopt-title{
+    font-family:"Fuzzy Bubbles", cursive;
+    font-size:40px;
+    color:#D55F27;
+    text-align:center;
+    margin-bottom:45px;
+}
 
-.reason-card { 
-	display: flex; 
-	flex-direction: column;
-	align-items: center; 
-	justify-content: flex-start; 
-	gap: 18px; 
-	padding: 20px 40px; 
-	text-align: center; 
-	flex: 1; 
-	max-width: 200px;
-	}
+.reasons-row{
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    gap:0;
+}
 
-.icon-wrap {
-	width:100%;
-	height:50px; 
-	border-radius:50%;
-	display:flex; 
-	align-items: center; 
-	justify-content: center;
-	}
+.reason-card{
+    width:180px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    padding:0 30px;
+}
 
-.reason-icon {
-	width:250%;
-	object-fit: contain;
+.icon-wrap{
+    width:55px;
+    height:55px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:18px;
+}
 
-	}
+.reason-icon{
+    width:40px;
+    height:40px;
+    object-fit:contain;
+}
 
-.reason-text {
-	font-family: 'Nunito', sans-serif;
-	font-size: 0.95rem;
-	font-weight: 700;
-	color: #3a2a1e;
-	line-height: 1.5;
-	}
-	
-.divider {
-	width: 1px;
-	height: 140px;
-	background-color: #d9ccbb;
-	flex-shrink: 0;
-	}
+.reason-text{
+    font-family:'Nunito', sans-serif;
+    font-size:15px;
+    font-weight:700;
+    color:#3A2A1E;
+    line-height:1.5;
+}
+
+.divider{
+    width:1px;
+    height:120px;
+    background:#D8CCBD;
+}
 
 /* ===================== */
 /*        Footer         */
