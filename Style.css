@@ -52,28 +52,23 @@ nav ul li a:hover{
 /*   HERO                */
 /* ===================== */
 
+.hero{ 
+	position: relative;
+	width: 100%; 
+	overflow: hidden; }
 
+.hero-image{ 
+	width: 100%;
+	height: auto;
+	display: block; }
 
-
-.hero{
-    background:url("Phone 1-01.jpg") center center/cover no-repeat;
-    min-height:100vh;
+.hero-content{ 
+	position: absolute; 
+	top: 50%; 
+	left: 8%; 
+	transform: translateY(-50%);
+	color: white; max-width: 450px; 
 }
-
-.hero-image{
-    display:none;
-}
-
-.hero-content{
-    position:absolute;
-    top:65%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    width:90%;
-    text-align:center;
-}
-
-
 
 .hero h1{
 	font-family:"Rubik Bubbles", cursive;
@@ -622,20 +617,26 @@ nav ul li a{
     font-size:15px;
 }
 
-/* Hero */
+
+.hero{
+    background:url("Phone 1-01.jpg") center center/cover no-repeat;
+    min-height:100vh;
+}
 
 .hero-image{
-    height:650px;
-    object-fit:cover;
+    display:none;
 }
 
 .hero-content{
+    position:absolute;
+    top:65%;
     left:50%;
-    top:50%;
     transform:translate(-50%,-50%);
-    text-align:center;
     width:90%;
+    text-align:center;
 }
+
+
 
 .hero h1{
     font-size:48px;
