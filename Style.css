@@ -211,7 +211,7 @@ nav ul li a:hover{
     width:24%;
     border:3px solid #FBE6CB;
     border-radius:22px;
-    padding:25px 20px;
+    padding:20px 20px 25px;
     background:transparent;
     transition:.3s;
 }
@@ -240,14 +240,15 @@ nav ul li a:hover{
     font-family:'Fuzzy Bubbles',cursive;
     color:#2F4F3EEE;
     font-size:30px;
-    margin-top:5px;
-    margin-bottom:20px;
+    margin-top:0;
+    margin-bottom:8px;
 }
 
 .submit-card img{
-    width:100px;
+    width:130px;     
+    height:auto;
     display:block;
-    margin:0 auto 20px;
+    margin:5px auto 8px;
 }
 
 .submit-card p{
