@@ -477,7 +477,7 @@ nav ul li a:hover{
 .reason-icon {
 	width:250%;
 	object-fit: contain;
-]
+
 	}
 
 .reason-text {
@@ -494,6 +494,7 @@ nav ul li a:hover{
 	background-color: #d9ccbb;
 	flex-shrink: 0;
 	}
+
 /* ===================== */
 /*        Footer         */
 /* ===================== */	
