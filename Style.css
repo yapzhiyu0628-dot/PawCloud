@@ -793,20 +793,16 @@ nav ul li a{
     margin-bottom:45px;
 }
 
-/* 這裡才是重點 */
-
 .icon-wrap{
-    width:120px;
-    height:120px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    margin:0 auto 15px;
+    width:150px !important;
+    height:150px !important;
+    margin:auto;
 }
 
 .reason-icon{
-    width:120px;
-    height:120px;
+    width:150px !important;
+    height:150px !important;
+    display:block;
     object-fit:contain;
 }
 
