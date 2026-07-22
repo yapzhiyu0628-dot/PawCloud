@@ -174,7 +174,8 @@ nav ul li a:hover{
 }
 
 .submit-bg{
-    width:300%;
+    width:120%;
+    margin-left:-10%;
     display:block;
 }
 
