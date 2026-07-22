@@ -325,22 +325,20 @@ nav ul li a:hover{
 }
 
 .browse-header{
+    position:relative;
     display:flex;
-    justify-content:space-between;
+    justify-content:center;
     align-items:center;
     margin-bottom:35px;
 }
 
 .title{
-   
-    padding-top:20px;
-    padding-right:50;
-    justify-content:center;
-    width:100%;
     display:flex;
+    justify-content:center;
     align-items:center;
     gap:15px;
-    font-family:'Fuzzy Bubbles',cursive;
+
+    padding-top:20px;
 }
 
 .title img{
@@ -354,6 +352,8 @@ nav ul li a:hover{
 }
 
 .view-all{
+    position:absolute;
+    right:0;
     text-decoration:none;
     color:#905841;
     font-size:18px;
