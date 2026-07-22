@@ -354,6 +354,9 @@ nav ul li a:hover{
 .view-all{
     position:absolute;
     right:0;
+    top:60%;              /* 原本沒有，數字越大越往下 */
+    transform:translateY(-50%);
+
     text-decoration:none;
     color:#905841;
     font-size:18px;
