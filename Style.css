@@ -1550,24 +1550,71 @@ nav ul li a{
 	.pet-container{ flex-direction:column; } 
 	.pet-card{ width:100%;
 	
-/* Why Adopt */
+/* ===================== */
+/*      Why Adopt        */
+/* ===================== */
 
-.why-adopt-section{padding:40px 20px;}
+.why-adopt-section{
+    background-color:#F8EFE0;
+    padding:40px 20px;
+}
 
-.why-adopt-title{font-size:34px;}
+.why-adopt-title{
+    font-family:"Playfair Display", serif;
+    font-size:34px;
+    color:#D55F27;
+    text-align:center;
+    margin-bottom:35px;
+}
 
-.reasons-row{display;flex-direction;align-items;}
+.reasons-row{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:30px;
+}
 
-.divider{display;}
+.divider{
+    display:none;
+}
 
-.reason-card{width:100%;max-width:320px;margin-bottom:45px;}
+.reason-card{
+    width:100%;
+    max-width:320px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:flex-start;
+    text-align:center;
+    gap:15px;
+    padding:15px 10px;
+    margin-bottom:20px;
+}
 
-.icon-wrap{width:150px !important;height:150px !important;margin;}
+.icon-wrap{
+    width:120px;
+    height:120px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:0 auto;
+}
 
-.reason-icon{width:150px !important;height:150px !important;display;object-fit;}
+.reason-icon{
+    width:90px;
+    height:90px;
+    object-fit:contain;
+    display:block;
+}
 
-.reason-text{font-size:22px;line-height:1.5;}
-
+.reason-text{
+    font-family:'Nunito', sans-serif;
+    font-size:20px;
+    line-height:1.5;
+    font-weight:700;
+    color:#3a2a1e;
+}
 	
 /* Footer */
 
