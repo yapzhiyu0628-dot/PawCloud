@@ -1481,6 +1481,14 @@ nav ul li a{
     gap:15px;
 }
 
+	/* Watch Video */
+.watch-btn{
+    display:block;
+    width:80%;
+    margin:15px auto 0;
+    text-align:center;
+}
+	
 .title{
     padding:0;
     width:100%;
