@@ -310,7 +310,145 @@ nav ul li a:hover{
     margin-bottom:3px;
 }
 
-/* ===================== */ /* Browse Pets */ /* ===================== */ .browse-pets{ background:#FCFAF4; width:100%; font-family:'Fuzzy Bubbles',cursive; } .browse-container{ width:90%; margin:auto; } .browse-header{ position:relative; display:flex; justify-content:center; align-items:center; margin-bottom:35px; } .title{ display:flex; justify-content:center; align-items:center; gap:15px; padding-top:20px; } .title img{ width:50px; } .title h2{ font-family:'Fuzzy Bubbles',cursive; font-size:46px; color:#D55F27; } .view-all{ position:absolute; right:0; top:60%; /* 原本沒有，數字越大越往下 */ transform:translateY(-50%); text-decoration:none; color:#905841; font-size:18px; font-weight:bold; transition:.3s; } .view-all:hover{ color:#D55F27; } .pet-container{ display:flex; justify-content:space-between; gap:25px; padding-bottom:25px; } .pet-card{ width:100%; background:#FDF3E0; border-radius:20px; transition:.3s; box-shadow:0 8px 18px rgba(0,0,0,.08); overflow:hidden; } .pet-card:hover{ transform:translateY(-8px); } .pet-image{ position:relative; height:180px; display:flex; justify-content:center; align-items:center; overflow:visible; } .coco{ background:#F8CBA6; } .luna{ background:#D9DEBD; } .beary{ background:#FDD58B; } .lucky{ background:#B5CCDA; } .dog-img{ width:140px; position:relative; z-index:1; } .love-icon{ position:absolute; top:15px; right:15px; width:28px; height:28px; z-index:20; } .pet-info{ padding:18px; } .pet-info h3{ color:#CC5E29; font-size:28px; margin-bottom:12px; } .pet-info p{ color:#2F4F3E; font-size:16px; line-height:1.7; } .watch-btn{ display:inline-block; margin-top:15px; background:#D55F27; color:white; padding:10px 18px; text-decoration:none; border-radius:30px; font-size:15px; transition:.3s; } .watch-btn:hover{ background:#B94D1B; }
+/* ===================== */ /* Browse Pets */ /* ===================== */ 
+.browse-pets{ 
+	background:#FCFAF4;
+	width:100%; font-family:
+		'Fuzzy Bubbles',cursive; 
+} 
+
+.browse-container{
+	width:90%; 
+	margin:auto; 
+}
+.browse-header{ 
+	position:relative; 
+	display:flex; 
+    justify-content:center;
+	align-items:center; 
+	margin-bottom:35px; 
+}
+.title{ 
+	display:flex; 
+	justify-content:center;
+	align-items:center;
+	gap:15px;
+	padding-top:20px;
+} 
+
+.title img{
+	width:50px;
+} 
+
+.title h2{
+	font-family:'Fuzzy Bubbles',cursive; font-size:46px; color:#D55F27;
+
+} 
+
+.view-all{
+	position:absolute; right:0; top:80%;
+	transform:translateY(-50%);
+	text-decoration:none; color:#905841; 
+	font-size:18px; 
+	font-weight:bold; 
+	transition:.3s;
+} 
+
+.view-all:hover{ 
+	color:#D55F27; 
+} 
+
+.pet-container{
+	display:flex;
+	justify-content:
+	space-between;
+	gap:25px;
+	padding-bottom:25px;
+}
+
+.pet-card{ 
+	width:100%;
+	background:#FDF3E0;
+	border-radius:20px;
+	transition:.3s; 
+	box-shadow:0 8px 18px rgba(0,0,0,.08);
+	overflow:hidden;
+} 
+
+.pet-card:hover{ 
+	transform:translateY(-8px);
+} 
+
+.pet-image{
+	position:relative; 
+	height:180px; 
+	display:flex;
+	justify-content:center; 
+	align-items:center;
+	overflow:visible;
+} 
+
+.coco{
+	background:#F8CBA6;
+} 
+
+.luna{
+	background:#D9DEBD;
+} 
+
+.beary{
+	background:#FDD58B;
+} 
+
+.lucky{
+	background:#B5CCDA;
+}
+
+.dog-img{
+	width:140px; 
+	position:relative; 
+	z-index:1; 
+} 
+
+.love-icon{ 
+	position:absolute;
+	top:15px;
+	right:15px;
+	width:28px;
+	height:28px;
+	z-index:20;
+} 
+
+.pet-info{
+	padding:18px;
+} 
+
+.pet-info h3{
+	color:#CC5E29; 
+	font-size:28px; 
+	margin-bottom:12px;
+}
+
+.pet-info p{
+	color:#2F4F3E; 
+	font-size:16px; 
+	line-height:1.7;
+} 
+
+.watch-btn{ 
+	display:inline-block; 
+	margin-top:15px; 
+	background:#D55F27;
+	color:white;
+	padding:10px 18px;
+	text-decoration:none;
+	border-radius:30px;
+	font-size:15px;
+	transition:.3s; 
+} 
+
+.watch-btn:hover{ background:#B94D1B; }
+
 
 /* ===================== */
 /*       Why Adopt       */
