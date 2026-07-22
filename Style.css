@@ -1515,17 +1515,36 @@ nav ul li a{
 
 /* Browse Pets */
 
+/* Browse Pets */
+
 .browse-header{
+    position:relative;
+    display:flex;
     flex-direction:column;
-    gap:20px;
+    align-items:center;
+    gap:15px;
 }
 
 .title{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
     padding:0;
+    width:100%;
 }
 
 .title h2{
     font-size:36px;
+}
+
+/* 手機版覆蓋 */
+.view-all{
+    position:static;
+    transform:none;
+    margin-top:5px;
+    font-size:16px;
+    text-align:center;
 }
 
 .pet-container{
@@ -1535,7 +1554,7 @@ nav ul li a{
 .pet-card{
     width:100%;
 }
-
+	
 /* Why Adopt */
 
 .why-adopt-section{
