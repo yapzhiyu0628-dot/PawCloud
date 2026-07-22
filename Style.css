@@ -1581,6 +1581,8 @@ nav ul li a{
 }
 
 
+
+	
 	.allpets{
     width:92%;
     margin:0 auto;
@@ -1675,7 +1677,9 @@ nav ul li a{
 }
 
 /* Image */
+	
 .pet-image{
+    position:relative;
     height:160px;
     overflow:hidden;
 }
@@ -1703,11 +1707,12 @@ nav ul li a{
     margin:4px 0;
 }
 
-/* Favourite Icon */
-.pet-card .heart-icon,
-.pet-card .favorite-icon{
+.love-icon{
     width:24px;
     height:24px;
+    position:absolute;
+    top:10px;
+    right:10px;
 }
 
 /* Watch Video Button */
@@ -1718,6 +1723,7 @@ nav ul li a{
     border-radius:25px;
     margin-top:12px;
 }
+	
 }
 
 
