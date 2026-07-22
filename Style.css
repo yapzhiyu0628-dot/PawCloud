@@ -169,15 +169,12 @@ nav ul li a:hover{
 /*     How To Submit     */
 /* ===================== */
 
-.submit-bg{
-    width:100%;
-    height:900px;      /* 可以改成 900px、1000px */
-    object-fit:cover;
-    display:block;
+.submit-pet{
+	position;width:100%;
 }
 
 .submit-bg{
-    width:150%;
+    width:200%;
     display:block;
 }
 
