@@ -1553,7 +1553,12 @@ nav ul li a{
 
 .pet-card{
     width:100%;
-}
+/* Browse Pets */ 
+	.browse-header{ flex-direction:column; gap:20px; } 
+	.title{ padding:0; } 
+	.title h2{ font-size:36px; } 
+	.pet-container{ flex-direction:column; } 
+	.pet-card{ width:100%;
 	
 /* Why Adopt */
 
