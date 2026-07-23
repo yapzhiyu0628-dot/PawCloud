@@ -296,17 +296,23 @@ nav ul li a:hover{
 /* List */
 
 .submit-card ul{
-    width:170px;
     margin-top:-5px;
-    padding-left:20px;
-    text-align:left;
     color:#939C67;
-    font-family:'Fuzzy Bubbles',cursive;
+    font-family:'Fuzzy Bubbles', cursive;
     font-size:18px;
     line-height:1.5;
 }
 
-.submit-card li{
+.info-card ul{
+    display:inline-block;
+    width:auto;
+    margin-top:-5px;
+    margin-bottom:0;
+    padding-left:20px;
+    text-align:left;
+}
+
+.info-card li{
     margin-bottom:3px;
 }
 
