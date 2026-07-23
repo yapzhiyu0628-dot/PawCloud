@@ -296,6 +296,8 @@ nav ul li a:hover{
 /* List */
 
 
+/* List */
+
 .submit-card ul{
     color:#939C67;
     font-family:'Fuzzy Bubbles', cursive;
@@ -303,17 +305,30 @@ nav ul li a:hover{
     line-height:1.5;
 }
 
-.submit-card li{
-    margin-bottom:3px;
-}
-
 .info-card ul{
-    display:inline-block;
-    width:auto;
+    list-style:none;
+    padding:0;
     margin-top:-5px;
     margin-bottom:0;
-    padding-left:18px;
+}
+
+.info-card li{
+    position:relative;
+    padding-left:16px;
+    margin-bottom:5px;
     text-align:left;
+
+    color:#939C67;
+    font-family:'Fuzzy Bubbles', cursive;
+    font-size:18px;
+}
+
+.info-card li::before{
+    content:"•";
+    position:absolute;
+    left:0;
+    top:0;
+    color:#939C67;
 }
 
 
