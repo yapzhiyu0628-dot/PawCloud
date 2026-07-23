@@ -295,12 +295,16 @@ nav ul li a:hover{
 
 /* List */
 
+
 .submit-card ul{
-    margin-top:-5px;
     color:#939C67;
     font-family:'Fuzzy Bubbles', cursive;
     font-size:18px;
     line-height:1.5;
+}
+
+.submit-card li{
+    margin-bottom:3px;
 }
 
 .info-card ul{
@@ -308,13 +312,10 @@ nav ul li a:hover{
     width:auto;
     margin-top:-5px;
     margin-bottom:0;
-    padding-left:20px;
+    padding-left:18px;
     text-align:left;
 }
 
-.info-card li{
-    margin-bottom:3px;
-}
 
 /* ===================== */ /* Browse Pets */ /* ===================== */ 
 .browse-pets{ 
